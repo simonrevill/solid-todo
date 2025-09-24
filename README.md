@@ -1,10 +1,6 @@
-# Solid Vite Template
+# Solid Todo
 
-Starter project template for Solid apps.
-
-Includes Vite bundler, TypeScript, Vitest, `jest-dom`, Stryker and Playwright with basic config already setup.
-
-GitHub workflows included for `vitest`, Stryker, and Playwright test suites.
+Experimental project for using the Solid framework
 
 ## Scripts
 
