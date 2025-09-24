@@ -1,6 +1,6 @@
 # Solid Todo
 
-Experimental project for using the Solid framework
+Experimental project for using the Solid framework. Simple todo app.
 
 ## Scripts
 
