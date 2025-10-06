@@ -3,7 +3,7 @@ import { getHeading } from "test-utils";
 
 import App from "../src/App";
 
-describe("", () => {
+describe("rendering", () => {
   it("renders heading", () => {
     // Arrange
     render(() => <App />);
