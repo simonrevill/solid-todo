@@ -34,4 +34,13 @@ describe("rendering", () => {
     // Assert
     expect(input).toBeVisible();
   });
+
+  it("renders text input with correct placeholder text", () => {
+    // Arrange
+    render(() => <App />);
+    const input = screen.getByLabelText("Enter a todo");
+
+    // Assert
+    expect(input).toHaveAttribute("placeholder", "e.g. walk the dog");
+  });
 });
