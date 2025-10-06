@@ -25,4 +25,13 @@ describe("rendering", () => {
     // Assert
     expect(form).toBeVisible();
   });
+
+  it("renders text input for inputting todos", () => {
+    // Arrange
+    render(() => <App />);
+    const input = screen.getByLabelText("Enter a todo");
+
+    // Assert
+    expect(input).toBeVisible();
+  });
 });
