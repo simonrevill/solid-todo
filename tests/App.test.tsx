@@ -43,4 +43,13 @@ describe("rendering", () => {
     // Assert
     expect(input).toHaveAttribute("placeholder", "e.g. walk the dog");
   });
+
+  it("renders submit button for the form", () => {
+    // Arrange
+    render(() => <App />);
+    const submitButton = screen.getByRole("button", { name: /Add/i });
+
+    // Assert
+    expect(submitButton).toBeVisible();
+  });
 });
