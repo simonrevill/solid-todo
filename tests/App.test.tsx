@@ -52,4 +52,13 @@ describe("rendering", () => {
     // Assert
     expect(submitButton).toBeVisible();
   });
+
+  it("renders disabled submit button by default", () => {
+    // Arrange
+    render(() => <App />);
+    const submitButton = screen.getByRole("button", { name: /Add/i });
+
+    // Assert
+    expect(submitButton).toBeDisabled();
+  });
 });
