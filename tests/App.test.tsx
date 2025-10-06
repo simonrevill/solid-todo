@@ -2,7 +2,7 @@ import { render, screen } from "./test-utils";
 
 import App from "../src/App";
 
-describe("rendering", () => {
+describe("initial rendering", () => {
   it("renders heading", () => {
     // Arrange
     render(() => <App />);
