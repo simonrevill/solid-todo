@@ -1,6 +1,6 @@
 function App() {
   return (
-    <>
+    <main>
       <h1>Solid Todo</h1>
       <form aria-label="todo-form">
         <label for="todo-input">Enter a todo</label>
@@ -9,7 +9,7 @@ function App() {
           Add
         </button>
       </form>
-    </>
+    </main>
   );
 }
 
