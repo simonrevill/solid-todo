@@ -8,7 +8,7 @@ describe("rendering", () => {
     render(() => <App />);
     const heading = screen.getByRole("heading", {
       level: 1,
-      name: /Vite \+ Solid/i,
+      name: /Solid Todo/i,
     });
 
     // Assert
